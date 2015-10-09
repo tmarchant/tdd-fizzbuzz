@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.properdom.tddworkshop.ClassUnderTestSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2015-10-09T10:47:10" hostname="localhost.localdomain" time="0.392">
+  <properties/>
+  <testcase name="expect syntax" classname="com.properdom.tddworkshop.ClassUnderTestSpec" time="0.342"/>
+  <testcase name="when then syntax" classname="com.properdom.tddworkshop.ClassUnderTestSpec" time="0.003"/>
+  <testcase name="where syntax" classname="com.properdom.tddworkshop.ClassUnderTestSpec" time="0.046"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
