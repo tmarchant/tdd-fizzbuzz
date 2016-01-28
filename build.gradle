@@ -3,12 +3,6 @@ apply plugin: 'groovy'
 
 sourceCompatibility = 1.8
 version = '1.0'
-jar {
-    manifest {
-        attributes 'Implementation-Title': 'TDD Workshop',
-                   'Implementation-Version': version
-    }
-}
 
 repositories {
     mavenCentral()
@@ -24,13 +18,8 @@ dependencies {
     compile 'org.apache.commons:commons-collections4:4.0'
 
     testCompile 'junit:junit:4.12'
-    testCompile 'org.codehaus.groovy:groovy-all:2.4.1:indy'
-    testCompile 'org.spockframework:spock-core:1.0-groovy-2.4', {
-        exclude module: 'groovy-all'
-    }
-    testCompile 'com.blogspot.toomuchcoding:spock-subjects-collaborators-extension:1.1.0', {
-        exclude module: 'groovy-all'
-    }
+    testCompile 'org.codehaus.groovy:groovy-all:2.4.1'
+    testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
     testCompile 'com.github.cglib.cglib:cglib-nodep:5503bcca74'
     testCompile 'org.objenesis:objenesis:2.1'
 }
