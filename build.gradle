@@ -1,7 +1,7 @@
 buildscript {
-    ext.kotlin_version = '1.0.4'
-    ext.spek_version = '1.0.89'
-    ext.junit_platform_version = '1.0.0-M2'
+    ext.kotlin_version = '1.0.6'
+    ext.spek_version = '1.1.0-beta3'
+    ext.junit_platform_version = '1.0.0-M3'
     repositories {
         jcenter()
     }
@@ -49,8 +49,10 @@ dependencies {
 }
 
 junitPlatform {
-    engines {
-        include 'spek'
+    filters {
+        engines {
+            include 'spek'
+        }
     }
 }
 
